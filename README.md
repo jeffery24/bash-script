@@ -1,2 +1,4 @@
 # bash-script
-🧠 编写、网上查询的 bash 脚本库
+🧠 build own bash script repository
+
+
