@@ -10,6 +10,11 @@
 - 部署 jar 包服务 [deploy-jar.sh]
 - 部署 nginx [deploy-nginx.sh]
 
+### command
+- 下载 docker服务 [install-docker.sh]
+
+卸载
+- 卸载 docker [uninstall-docker.sh]
 
 
 
