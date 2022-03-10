@@ -10,6 +10,6 @@ sudo yum remove docker \
                   docker-logrotate \
                   docker-engine
 
-# 删除docker相关数据
-rm -rf /var/lib/docker
-rm -rf /var/lib/containerd
+# 删除docker相关数据(可选)
+#rm -rf /var/lib/docker
+#rm -rf /var/lib/containerd
