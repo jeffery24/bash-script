@@ -54,3 +54,10 @@
 
 
 ## docker-compose
+命名 docker-compose.yml.service-name
+使用之前重命名去除后面的服务名
+一般性建议: 参考官方文档
+
+- gitlab [参考](https://docs.gitlab.com/ee/install/docker.html#install-gitlab-using-docker-compose)
+默认管理账号 root
+有企业版和社区版: ee vs ce,建议直接安装企业版,决定升级到付费时候无需重新安装Gitlab
