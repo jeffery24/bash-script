@@ -45,6 +45,9 @@
 
 ## docker
 
+### 前置说明
+- 使用之前注意是否需要修改端口,以及修改域名,以及修改挂载目录或者文件
+- 一般性建议: 参考官方文档
 [docker-example](./notes/docker.md)
 
 
@@ -54,10 +57,14 @@
 
 
 ## docker-compose
-命名 docker-compose.yml.service-name
-使用之前重命名去除后面的服务名
-一般性建议: 参考官方文档
 
+### 前置说明
+- 命名 docker-compose.yml.service-name
+- 使用之前重命名去除后面的服务名
+- 使用之前注意是否需要修改端口,以及修改域名,以及修改挂载目录或者文件
+- 一般性建议: 参考官方文档
+
+### 实例
 - gitlab [参考](https://docs.gitlab.com/ee/install/docker.html#install-gitlab-using-docker-compose)
-默认管理账号 root
+默认管理账号 root,
 有企业版和社区版: ee vs ce,建议直接安装企业版,决定升级到付费时候无需重新安装Gitlab
